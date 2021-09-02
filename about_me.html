@@ -48,15 +48,43 @@
 
     <div class="container">
 
-        <h1>About me</h1>
-        <h2>서울 사람 입니다.</h2>
+        <div class="row">
+            <div class="col-9">
+                <h1>About me</h1>
+                <h2>서울 사람 입니다.</h2>
+                
+                <p>HTML CSS JS DJANGO 로 웹 사이트 만들기 좋아</p>
+                <a href="./index.html">첫 화면으로 가기</a>
+    
+                <button onclick="whatTimeIsIt();" >현재시각</button>
+                <hr>
+    
+            </div>
+            <div class="col-3">
+                <!--img src="./images/seoul.jpg" alt="" width="400px" -->
+                <img src="./images/seoul.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
 
-        <button onclick="whatTimeIsIt();" >현재시각</button>
-        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="col-sm col-lg-6 bg-info">
+                    <img src="./images/a.jpg" alt="" class="img-fluid">
 
-        <p>HTML CSS JS DJANGO 로 웹 사이트 만들기 좋아</p>
-        <a href="./index.html">첫 화면으로 가기</a>
-        <img src="./images/seoul.jpg" alt="" width="400px">
+                </div>
+                <div class="col-sm col-lg-3 bg-secondary">
+                    <img src="./images/b.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm col-lg-3 bg-warning">
+                    <img src="./images/c.jpg" alt="" class="img-fluid">
+                </div>
+                </div>
+            </div>
+        </div>
+
 
     </div>
 
